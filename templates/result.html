@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+      <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+        body {text-align: center;}
+        
+        </style>
+        <meta charset="utf-8">
+        <h1> Diabetes Predictor</h1>
+    </head>
+
+    <body>
+
+
+
+        
+      <div class="ml-container">
+        <form action="{{ url_for('predict') }}" method="POST">
+                <label for="pregnancies">Pregnancies:</label><br>
+                <input class="form-input" type="text" name="pregnancies" placeholder="eg. 0"><br><br>
+                <label for="glucose">Glucose:</label><br>
+                <input class="form-input" type="text" name="glucose" placeholder="eg. 82"><br><br>
+                <label for="bloodpressure">Blood Pressure:</label><br>
+                <input class="form-input" type="text" name="bloodpressure" placeholder="eg. 78"><br><br>
+                <label for="skinthickness">Skin Thickness:</label><br>
+                <input class="form-input" type="text" name="skinthickness" placeholder="in (mm) eg. 22"><br><br>
+                <label for="insulin">Insulin:</label><br>
+                <input class="form-input" type="text" name="insulin" placeholder="in (IU/mL) eg. 80"><br><br>
+                <label for="bmi">BMI:</label><br>
+                <input class="form-input" type="text" name="bmi" placeholder="in (kg/m²) eg. 25.5"><br><br>
+                <label for="dpf">Diabetes Pedigree Function:</label><br>
+                <input class="form-input" type="text" name="dpf" placeholder="eg. 0.351"><br><br>
+                <label for="age">Age:</label><br>
+                <input class="form-input" type="text" name="age" placeholder="eg. 40"><br><br>
+
+            <input type="submit" class="my-cta-button" value="Predict">
+          </form>
+      </div>
+    </div>
+
+		<!-- Result -->
+		<div class="results">
+			{% if prediction==1 %}
+				<h1>Prediction: <span class='danger'>Sorry! You have DIABETES.</span></h1>
+			{% elif prediction==0 %}
+				<h1>Prediction: <span class='safe'>Congratulations! You DON'T have diabetes.</span></h1>
+			{% endif %}
+		</div>
+
+
+      <body style="background-color:gainsboro;">
+       
+    </body>
+</html>
