@@ -1,41 +1,26 @@
-argon2-cffi @ file:///C:/ci/argon2-cffi_1596828549974/work
-attrs @ file:///tmp/build/80754af9/attrs_1598374659300/work
 backcall==0.2.0
 bleach==3.1.5
 certifi==2020.6.20
-cffi @ file:///C:/ci/cffi_1598352799320/work
 colorama==0.4.3
 cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
 entrypoints==0.3
-importlib-metadata @ file:///C:/ci/importlib-metadata_1593446525189/work
-ipykernel @ file:///C:/ci/ipykernel_1596208728219/work/dist/ipykernel-5.3.4-py3-none-any.whl
-ipython @ file:///C:/ci/ipython_1598353543543/work
 ipython-genutils==0.2.0
-jedi @ file:///C:/ci/jedi_1596472767194/work
 Jinja2==2.11.2
 joblib==0.16.0
-jsonschema @ file:///C:/ci/jsonschema_1594363671836/work
-jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1594826976318/work
 jupyter-core==4.6.3
 kiwisolver==1.2.0
-MarkupSafe @ file:///C:/ci/markupsafe_1594405949945/work
 matplotlib==3.3.1
-mistune @ file:///C:/ci/mistune_1594373272338/work
-nbconvert @ file:///C:/ci/nbconvert_1594372737468/work
 nbformat==5.0.7
-notebook @ file:///C:/ci/notebook_1596837179121/work
 numpy==1.19.1
 packaging==20.4
 pandas==1.1.1
 pandocfilters==1.4.2
 parso==0.7.0
-pickleshare @ file:///C:/ci/pickleshare_1594374056827/work
 Pillow==7.2.0
 prometheus-client==0.8.0
 prompt-toolkit==3.0.5
-pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
 Pygments==2.6.1
 pyparsing==2.4.7
 pyrsistent==0.16.0
